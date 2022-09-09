@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Object
+{
+    internal class Employee
+
+    {
+        public string? name;
+        public int lön; 
+
+        public void CountSalary()
+        {
+           Console.WriteLine(lön + (lön *.10));
+        }
+    }
+}
