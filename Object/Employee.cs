@@ -15,7 +15,7 @@ namespace Object
         {
             if (lön >= && lön < 15000)
             {
-               Console.WriteLine(lön
+              
             }
         }
 
